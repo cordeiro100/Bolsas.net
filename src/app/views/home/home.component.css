@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+.global {
+    display: flex;
+    height: 100vh;
+}
+
+aside{
+    flex: 6;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+aside img {
+    border-radius: 30%;
+    height: 500px;
+    box-shadow: 0px 0px 30px #ff09f7, 0px 0px 10px silver;
+   
+
+}
+
+aside h2{
+    font-family: 'Goldman', cursive;
+    margin-top: 100px;
+    font-size: 40px;
+
+}
+
+.voce{
+    font-family: 'Goldman', cursive;
+    font-size: 70px;
+    color: white;
+
+}
+main{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -200px;
+}
+
+main p {
+    font-family: 'Goldman', cursive;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 100px;
+
+
+}
+
+form input {
+    text-align: center;
+    font-family: 'Goldman', cursive;
+    border-radius: 8px;
+    width: 300px;
+    padding: 8px;
+    margin-top: 10px;
+    border: 2px red solid;
+    border-style: groove;
+    border-color: pink;
+    box-shadow: 0px 0px 30px #ff09f7, 0px 0px 10px silver;
+
+}
+
+form label {
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.681);
+    font-family: 'Goldman', cursive;
+}
+
+form {
+    position: absolute;
+    top: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    height: 300px;
+    border-radius: 8px;
+    background-color: pink;
+    border: 0px solid;
+    width: 500px;
+    box-shadow: 0px 0px 30px #ff09f7, 0px 0px 10px silver;
+}
+
+.botao-google{
+    width: 300px;
+    background-color: rgb(255, 77, 0);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: 0px solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'Goldman', cursive;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.botao-google:hover{
+    filter: brightness(0.8);
+}
+
+.botao-google img{
+    position: relative;
+    right: 20px;
+}
+
+.entrar{
+    margin-top: 20px;
+    width: 180px;
+    padding: 9px;
+    border-radius: 8px;
+    border: 0px solid;
+    background: #ff09f7;
+    font-family: 'Goldman', cursive;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.entrar:hover{
+    filter: brightness(0.8);
+}
